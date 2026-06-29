@@ -1,7 +1,7 @@
 //print numbers in reverse order using while loop
 package loopjava;
 import java.util.*;
-public class Reverse {
+public class Reverseorder {
 public static void main(String[] args) {
     Scanner sc=new Scanner(System.in);
     int n=sc.nextInt();
