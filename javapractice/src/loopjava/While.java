@@ -61,3 +61,38 @@ class Reversenumber{
     }
 }
 
+//to print the sum of digits in a number
+class Digitsum{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int sum=0;
+        while(n>0){
+            int digit=n%10;
+            sum=sum+digit;
+            n=n/10;
+        }
+        System.out.println(sum);
+    }
+}
+
+//print the largest digit in a number
+class Largest{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        int maxdigit=0;
+        if(n==0){
+            System.out.println("largest number is 0");
+        }else{
+            while(n>0){
+                int digit=n%10;
+                if(digit>maxdigit){
+                    maxdigit=digit;
+                }
+                n=n/10;
+            }
+            System.out.println(maxdigit);
+        }
+    }
+}
