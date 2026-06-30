@@ -15,7 +15,7 @@ public class Dowhileloop {
 }
 
 
-//print factorial of n numbers using do while loop
+//print factorial of a number using do while loop
 class Newdowhile{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
