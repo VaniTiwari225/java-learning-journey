@@ -24,7 +24,7 @@ class Search{
             number[i]=sc.nextInt();
         }
         int x=sc.nextInt();
-        for(int i=1;i<size;i++){
+        for(int i=1;i<number.length-1;i++){
             if(number[i]==x){
                 System.out.println("x occurs at index :"+i);
             }
@@ -39,20 +39,20 @@ class Search{
         public static void main(String[] args) {
             Scanner sc=new Scanner(System.in);
             int size=sc.nextInt();
-            int[] number=new int[size];
+            int[] numbers=new int[size];
             for(int i=0;i<size;i++){
-                number[i]=sc.nextInt();
+                numbers[i]=sc.nextInt();
             }
-            boolean isascending=true;
-            for(int i=0;i<size;i++){
-                if(number[i]<number[i+1]){
-                    isascending=false;
+            boolean isAscending=true;
+            for(int i=0;i<numbers.length-1;i++){
+                if(numbers[i]>numbers[i+1]){
+                    isAscending=false;
                 }
             }
-            if(isascending){
-                System.out.println("sorted in ascending order");
-            }else{
-                System.out.println("sorted in descending order");
-            }
+            if(isAscending){
+                    System.out.println("sorted in ascending order");
+                }else{
+                    System.out.println("sorted in descending order");
+                }
         }
       }
