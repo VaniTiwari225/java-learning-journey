@@ -20,6 +20,3 @@ public class numbers {
          }
     }
 }
-
-//search for a number x and print the index at which it occurs
-class Searc
