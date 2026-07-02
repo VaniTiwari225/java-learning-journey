@@ -1,3 +1,4 @@
+//print marks of a student
 package arrays;
 import java.util.*;
 public class Marks {
@@ -8,6 +9,25 @@ public class Marks {
         marks[2]=34;
         for(int i=0;i<3;i++){
             System.out.println(marks[i]);
+        }
+    }
+}
+
+
+//take an inpout from the user.Search for a given number x and print the index at which it occurs
+class Search{
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int size=sc.nextInt();
+        int[] number=new int[size];
+        for(int i=0;i<size;i++){
+            number[i]=sc.nextInt();
+        }
+        int x=sc.nextInt();
+        for(int i=1;i<size;i++){
+            if(number[i]==x){
+                System.out.println("x occurs at index :"+i);
+            }
         }
     }
 }
