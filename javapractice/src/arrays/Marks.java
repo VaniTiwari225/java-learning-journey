@@ -31,3 +31,28 @@ class Search{
         }
     }
 }
+
+//Take an array of numbers as input and check if it is an array sorted in ascending order.
+// { 1, 2, 4, 7 } is sorted in ascending order.
+      // {3, 4, 6, 2} is not sorted in ascending order.
+      class Order{
+        public static void main(String[] args) {
+            Scanner sc=new Scanner(System.in);
+            int size=sc.nextInt();
+            int[] number=new int[size];
+            for(int i=0;i<size;i++){
+                number[i]=sc.nextInt();
+            }
+            boolean isascending=true;
+            for(int i=0;i<size;i++){
+                if(number[i]<number[i+1]){
+                    isascending=false;
+                }
+            }
+            if(isascending){
+                System.out.println("sorted in ascending order");
+            }else{
+                System.out.println("sorted in descending order");
+            }
+        }
+      }
