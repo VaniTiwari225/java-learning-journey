@@ -6,5 +6,8 @@ public class Substring {
         String str=sc.nextLine();
         String str2=str.substring(7,10);
         System.out.println(str2);
+
+        //strings are immutable
+        
     }
 }
