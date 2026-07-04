@@ -1,3 +1,4 @@
+//print my name using string
 package strings;
 import java.util.*;
 public class Name {
@@ -7,3 +8,4 @@ public class Name {
         System.out.println("my name is :"+str);
     }
 }
+
