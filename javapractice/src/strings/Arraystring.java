@@ -9,7 +9,7 @@ public class Arraystring {
         int totlength=0;
         for(int i=0;i<size;i++){
             array[i]=sc.next();
-            totlength=array[i].length();
+            totlength+=array[i].length();
         }
         System.out.println(totlength);
     }
