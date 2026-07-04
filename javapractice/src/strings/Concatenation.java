@@ -8,7 +8,11 @@ public class Concatenation {
    String lastname=sc.next();
    String fullname=firstname+" "+lastname;
    System.out.println(fullname);
+
+   //print length of the string
    System.out.println(fullname.length());
+
+
    //print all characters of the string
    for(int i=0;i<fullname.length();i++){
 System.out.println(fullname.charAt(i));
