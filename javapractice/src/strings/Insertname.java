@@ -7,7 +7,7 @@ public class Insertname {
         String sentence=sc.nextLine();
         String name=sc.next();
         StringBuilder sb=new StringBuilder(sentence);
-        sb.insert(2,name+" ");
+        sb.insert(0,name+" ");
         System.out.println(sb);
     }
 }
