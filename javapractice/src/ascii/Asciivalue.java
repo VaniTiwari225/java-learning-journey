@@ -8,3 +8,5 @@ public class Asciivalue {
         System.out.println("ASCII value = "+(int)ch);
     }
 }
+
+//Print the character from an ASCII value
