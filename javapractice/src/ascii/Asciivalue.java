@@ -9,4 +9,11 @@ public class Asciivalue {
     }
 }
 
-//Print the character from an ASCII value
+//print ascii values from A to Z
+class Values{
+    public static void main(String[] args) {
+        for(char ch='A';ch<='Z';ch++){
+            System.out.println(" Ascii value of " + ch+"="+(int)ch);
+        }
+    }
+}
