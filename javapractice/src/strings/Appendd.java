@@ -14,7 +14,7 @@ public class Appendd {
 class Build{
         public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        String str=sc.next();
+        String str=sc.nextLine();
         StringBuilder sb=new StringBuilder(str);
         sb.append('i');
         System.err.println(sb);
